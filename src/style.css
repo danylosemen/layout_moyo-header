@@ -1,20 +1,17 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 :root {
   --active-color: #00acdc;
   --main-text-color: #000;
   --bg-header: #fff;
 }
 
+[class*='__'] {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  background-color: gray;
 }
 
 .header {
